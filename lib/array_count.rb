@@ -1,6 +1,6 @@
 
 def count_strings(array)
-  array.any?(String) { |num| num.count <  0  }
+  array.any?(String) { |num| num.class == String  }
     num +=1 
     p count_strings(array)
 end
